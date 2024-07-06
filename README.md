@@ -14,9 +14,12 @@ Análise semântica é um processo no qual são verificados os erros semânticos
 código fonte e coletadas as informações necessárias para a próxima fase da 
 compilação, que é a geração de código objeto.
 
+Código Imtermediário foi um processo iniciado, entretanto não está sendo gerado
+a partir da SDT, logo quando o código é executado o código intermediário printa "None".
+Isso ocorre devido que a nossa geração começa a errar com a utilização dos nodes e AST.
 <br />
 
-**Para o projeto em questão, a linguagem empregada foi a *LCC-2022-2*.**
+**Para o projeto em questão, a linguagem empregada foi a *LCC-2024-1*.**
 <br />
 <br />
 
@@ -69,7 +72,7 @@ NUM_INDEX       -> [ NUMEXPRESSION ] NUM_INDEX | &
 Um *token* é um segmento de texto ou símbolo que pode ser manipulado por um 
 analisador sintático, que fornece um significado ao texto.
 
-Dentro da linguagem *LCC-2022-2*, foram utilizados os seguintes:
+Dentro da linguagem, foram utilizados os seguintes:
 <br />
 <br />
 
@@ -118,7 +121,7 @@ Dentro da linguagem *LCC-2022-2*, foram utilizados os seguintes:
 ## Execução
 ### Entrada e Saída de Dados
 Deve ser fornecido o caminho de um arquivo no formato *.lcc* escrito na linguagem
-*LCC-2022-2* derivada por *CC-2022-2*.
+*LCC-2024-1* derivada por *CC-2024-1*.
 
 As seguintes saídas são esperadas:
 - **se não houver erros léxicos, sintáticos ou semânticos -** árvores de 
@@ -139,7 +142,12 @@ Para executar o programa, através do *Makefile*, execute:
 ```
 make run INPUT_FILE
 ```
-
+<br />
+<br />
+Exemplo:
+```
+make run INPUT_FILE=examples/matriz.lcc
+```
 - **INPUT_FILE -** deve ser o arquivo de entrada do programa, contendo o código 
 fonte a ser analisado, em linguagem *LC-2024-1*;
 <br />
