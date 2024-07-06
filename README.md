@@ -144,6 +144,7 @@ make run INPUT_FILE
 ```
 <br />
 <br />
+
 Exemplo:
 ```
 make run INPUT_FILE=examples/matriz.lcc
