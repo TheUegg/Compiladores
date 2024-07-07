@@ -24,7 +24,7 @@ Isso ocorre devido que a nossa geração começa a ter problemas com a utilizaç
 <br />
 
 ### ***ConvCC-2024-1***
-Para execução do código, foi necessário a conversão da gramática para a **forma convencional**:
+Para execução do código, foi necessário a conversão da gramática para a **forma convencional**, alterando um pouco a gramática para facilitar o desenvolvimento e deixar mais robusta:
 
 ```
 PROGRAM         -> STATEMENT | FUNCLIST | &
