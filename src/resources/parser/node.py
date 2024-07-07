@@ -82,14 +82,12 @@ class Node:
 
   # Métodos para geração de código intermediário
   def generate_code(self):
-    # Placeholder para método de geração de código
     code = []
     if self._symbol == 'FUNCDEF':
       code.append(f'def {self.children[1].lexeme()}({", ".join([child.lexeme() for child in self.children[3].children])}):')
       code.extend(self.children[6].generate_code())
     elif self._symbol == 'VARDECL':
       code.append(f'{self.children[0].lexeme()} {self.children[1].lexeme()};')
-    # Adicione outros casos conforme necessário
     for child in self.children:
       code.extend(child.generate_code())
     return code
