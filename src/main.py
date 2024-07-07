@@ -56,6 +56,11 @@ def analyze(token_file, grammar_text, data):
 
 if __name__ == '__main__':
     try:
+        
+        print('-------------------------------------------------------------------------------------------')
+        print('Nomes: Gabriel Dutra, Breno de Brida, Marcelo Dutra Mendença, Eduardo Peres Luckner Goulart')
+        print('-------------------------------------------------------------------------------------------')
+        
         if len(sys.argv) != 2:
             raise Exception('Número de argumentos inválido!')
 
