@@ -1,6 +1,6 @@
 ## **Introdução**
 - Projeto de um analisador semântico, desenvolvido em *Python*;
-- O programa foi feito em conjunto com um analisador sintático e um analisador 
+- O programa foi feito em conjunto com um analisador 
 léxico, desenvolvido com a utilização da ferramenta *PLY* (módulo *LEX*).
 
 Um analisador léxico é uma ferramenta capaz de converter códigos em *tokens*.
