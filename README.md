@@ -1,5 +1,5 @@
 ## **Introdução**
-- Projeto de um analisador semântico, desenvolvido em *Python*;
+- Projeto de um analisador léxico, sintático, semântico, gerador de código intermediário, desenvolvido em *Python*;
 - O programa foi feito em conjunto com um analisador 
 léxico, desenvolvido com a utilização da ferramenta *PLY* (módulo *LEX*).
 
