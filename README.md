@@ -1,7 +1,7 @@
 ## **Introdução**
 - Projeto de um analisador léxico, sintático, semântico, gerador de código intermediário, desenvolvido em *Python*;
-- O programa foi feito em conjunto com um analisador 
-léxico, desenvolvido com a utilização da ferramenta *PLY* (módulo *LEX*).
+- O programa foi feito em conjunto com uma biblioteca 
+léxica, desenvolvida com a utilização da ferramenta *PLY* (módulo *LEX*).
 
 Um analisador léxico é uma ferramenta capaz de converter códigos em *tokens*.
 O analisador léxico lê um programa de entrada e gera um fluxo de *tokens*.
