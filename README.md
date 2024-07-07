@@ -16,7 +16,7 @@ compilação, que é a geração de código objeto.
 
 Código Imtermediário foi um processo iniciado, entretanto não está sendo gerado
 a partir da SDT, logo quando o código é executado o código intermediário printa "None".
-Isso ocorre devido que a nossa geração começa a errar com a utilização dos nodes e AST.
+Isso ocorre devido que a nossa geração começa a ter problemas com a utilização dos nodes e AST.
 <br />
 
 **Para o projeto em questão, a linguagem empregada foi a *LCC-2024-1*.**
